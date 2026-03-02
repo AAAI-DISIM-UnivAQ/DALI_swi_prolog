@@ -1,0 +1,3 @@
+send_message(send_message(log_event(message,evacuator,evacuating),_81272))
+send_message(send_message(coord_event(evacuated,rome,none),_91232))
+send_message(send_message(log_event(message,evacuator,done),_89500))

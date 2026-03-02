@@ -1,0 +1,4 @@
+send_message(send_message(notify(status,irrigating,north_field),_1973792))
+send_message(send_message(notify(status,irrigating,east_field),_1982364))
+send_message(send_message(notify(status,irrigating,all_fields),_1982364))
+send_message(send_message(notify(status,irrigating,all_fields),_1982364))

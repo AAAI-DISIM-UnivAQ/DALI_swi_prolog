@@ -1,0 +1,32 @@
+.DS_Store
+.idea
+Examples/advanced/.DS_Store
+Examples/advanced/temp_scripts/
+Examples/advanced/build/*
+Examples/advanced/work/*
+Examples/advanced/conf/*
+Examples/advanced/log/*
+Examples/advanced/conf/mas/*.txt
+Examples/advanced/conf/communication.pl
+Examples/advanced/conf/communication.txt
+Examples/advanced/server.txt
+src/test/scripts/*.txt
+!src/test/scripts/test_agent.txt
+src/test/work/*
+src/test/conf/*
+src/test/conf/mas/*
+**/conf/communication.*
+*.log
+!.gitkeep
+# Test-generated files (06_message_exchange_test.sh)
+build/
+**/build/
+src/test/scripts/build/
+temp_scripts/
+**/temp_scripts/
+*.conf
+# *.pl
+# *.ple
+# *.plf
+# *.plv
+Examples/advanced/Requisiti.md

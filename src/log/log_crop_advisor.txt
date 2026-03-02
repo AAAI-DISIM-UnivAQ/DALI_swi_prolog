@@ -1,0 +1,8 @@
+send_message(send_message(irrigate(north_field),_2037798))
+send_message(send_message(notify(advisory,suggestion,north_field),_2047660))
+send_message(send_message(irrigate(east_field),_2052798))
+send_message(send_message(notify(advisory,suggestion,east_field),_2052564))
+send_message(send_message(irrigate(all_fields),_2046836))
+send_message(send_message(notify(advisory,suggestion,all_fields),_2053572))
+send_message(send_message(irrigate(all_fields),_2052172))
+send_message(send_message(notify(advisory,suggestion,all_fields),_2051938))

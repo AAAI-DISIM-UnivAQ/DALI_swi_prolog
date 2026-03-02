@@ -1,0 +1,2 @@
+send_message(send_message(log_event(generic,fire,rome),_143036))
+send_message(send_message(coord_event(alarm,fire,rome),_152930))

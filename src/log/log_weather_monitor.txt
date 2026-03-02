@@ -1,0 +1,2 @@
+send_message(send_message(sensor_data(weather,42,15,drought),_2054658))
+send_message(send_message(sensor_data(weather,0,80,frost),_2063292))

@@ -1,0 +1,6 @@
+send_message(send_message(communicate(mary,fire),_1635394))
+send_message(send_message(communicate(john,fire),_1642128))
+send_message(send_message(evacuate(rome),_1643860))
+send_message(send_message(emergency(fire),_1647318))
+send_message(send_message(respond(firetruck,rome),_1649618))
+send_message(send_message(log_event(message,coordinator,done),_1649704))

@@ -1,0 +1,2 @@
+send_message(send_message(coord_event(equipped,firetruck,none),_100084))
+send_message(send_message(log_event(message,manager,done),_109874))

@@ -1,0 +1,2 @@
+send_message(send_message(sensor_data(soil,20,6.5,north_field),_2040418))
+send_message(send_message(sensor_data(soil,50,4.0,east_field),_2049022))

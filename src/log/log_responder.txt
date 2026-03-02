@@ -1,0 +1,2 @@
+send_message(send_message(coord_event(responded,rome,none),_60322))
+send_message(send_message(log_event(message,responder,done),_70140))
