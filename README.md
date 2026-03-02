@@ -19,11 +19,11 @@ The recommended way to run DALI is through **[DALIA](https://github.com/AAAI-DIS
    ```sh
    git clone github.com/AAAI-DISIM-UnivAQ/DALI_swi_prolog.git
    git clone https://github.com/AAAI-DISIM-UnivAQ/dalia_swi_prolog.git
-   cd dalia
+   cd dalia_swi_prolog
    ```
 3. Run an example MAS:
    ```sh
-   ./run --dali ../DALI --src example --token <YOUR_OPENAI_API_KEY>
+   ./run --dali ../DALI_swi_prolog --src example --token <YOUR_OPENAI_API_KEY>
    ```
 
 See the [DALIA README](https://github.com/AAAI-DISIM-UnivAQ/dalia_swi_prolog) for full usage details and examples.
@@ -46,7 +46,7 @@ DALI is shipped with two ready-to-run example projects (located in the DALIA rep
 A multi-agent emergency response system with 9 agents: `sensor`, `coordinator`, `logger`, `communicator`, `evacuator`, `manager`, `responder`, `mary`, `john`.
 
 ```sh
-./run --dali ../DALI --src example --token <YOUR_OPENAI_API_KEY>
+./run --dali ../DALI_swi_prolog --src example --token <YOUR_OPENAI_API_KEY>
 ```
 
 In the user prompt, send a sensor event:
@@ -71,7 +71,7 @@ send_message(sense(fire, rome), me).
 A multi-agent precision agriculture system with 6 agents: `soil_sensor`, `weather_monitor`, `crop_advisor`, `irrigation_controller`, `farmer_agent`, `logger`.
 
 ```sh
-./run --dali ../DALI --src case_study_smart_agriculture --token <YOUR_OPENAI_API_KEY>
+./run --dali ../DALI_swi_prolog --src case_study_smart_agriculture --token <YOUR_OPENAI_API_KEY>
 ```
 
 In the user prompt, send soil and weather data:
@@ -118,7 +118,7 @@ To create a new DALI MAS:
    }
    ```
 3. Create a `types/` subfolder with `.txt` files for each agent type
-4. Launch with: `./run --dali ../DALI --src my_project`
+4. Launch with: `./run --dali ../DALI_swi_prolog --src my_project`
 
 ### Agent Type File Guidelines
 
