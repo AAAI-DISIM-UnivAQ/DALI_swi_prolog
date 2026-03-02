@@ -10,15 +10,15 @@ DALI is a meta interpreter built on top of **SWI-Prolog**.
 
 DALI is built upon the [SWI-Prolog](https://www.swi-prolog.org/) interpreter (open-source).
 
-The recommended way to run DALI is through **[DALIA](https://github.com/lollix91/dalia)**, a containerized launcher that handles all setup automatically via Docker.
+The recommended way to run DALI is through **[DALIA](https://github.com/AAAI-DISIM-UnivAQ/dalia_swi_prolog)**, a containerized launcher that handles all setup automatically via Docker.
 
 ### Quick Start with DALIA (Recommended)
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
 2. Clone both repositories:
    ```sh
-   git clone https://github.com/AAAI-DISIM-UnivAQ/DALI.git
-   git clone https://github.com/lollix91/dalia.git
+   git clone github.com/AAAI-DISIM-UnivAQ/DALI_swi_prolog.git
+   git clone https://github.com/AAAI-DISIM-UnivAQ/dalia_swi_prolog.git
    cd dalia
    ```
 3. Run an example MAS:
@@ -26,7 +26,7 @@ The recommended way to run DALI is through **[DALIA](https://github.com/lollix91
    ./run --dali ../DALI --src example --token <YOUR_OPENAI_API_KEY>
    ```
 
-See the [DALIA README](https://github.com/lollix91/dalia) for full usage details and examples.
+See the [DALIA README](https://github.com/AAAI-DISIM-UnivAQ/dalia_swi_prolog) for full usage details and examples.
 
 ## Architecture
 
@@ -132,7 +132,7 @@ To create a new DALI MAS:
 
 ## Release History
 
-Check [release history](http://github.com/AAAI-DISIM-UnivAQ/DALI/releases) page.
+Check [release history](https://github.com/AAAI-DISIM-UnivAQ/DALI_swi_prolog/releases) page.
 
 ## Software architecture
 
